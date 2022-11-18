@@ -1,6 +1,6 @@
 # PacMen
 ## Factory for making Pacmen
-<img src="./PacMen Exercise/PacMan1.png" width='300'/>
+<img src="./Images/PacMan1.png" width='300'/>
 
 # Usage 
 ## Open html.index file
