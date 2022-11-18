@@ -21,7 +21,7 @@
         let game = document.getElementById('game');
         let newimg = document.createElement('img');
         newimg.style.position = 'absolute';
-        newimg.src = 'PacMan1.png';
+        newimg.src = './Images/PacMan1.png';
         newimg.width = 100;
         // set position here 
         newimg.style.left = position.x;
