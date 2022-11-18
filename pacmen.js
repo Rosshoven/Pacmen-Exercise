@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pacmen</title>
-</head>
-<body>
-    <div id='game'>
-        <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
-        <button onclick='update()' width='200' height='30'>Start Game</button>
-
-    </div>
-    
-<script>
     var pos = 0;
     const pacArray = [
         ['PacMan1.png', 'PacMan2.png'],
@@ -76,9 +60,3 @@
     function makeOne() {
         pacMen.push(makePac()); // add a new PacMan
     }
-</script>
-
-
-</body>
-
-</html>
