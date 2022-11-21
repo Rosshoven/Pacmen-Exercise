@@ -1,5 +1,5 @@
 # PacMen
-## Factory for making Pacmen
+## Factory for making Pacmen. This page produces one Pacman on the click of the button "Add Pacman." The button "Start Game" will make the pacman move based on the x & y axis.  
 <img src="./Images/PacMan1.png" width='300'/>
 
 # Usage 
