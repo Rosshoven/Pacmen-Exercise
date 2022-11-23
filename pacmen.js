@@ -33,7 +33,7 @@
             position,
             velocity,
             newimg
-        }
+        };
     }
 
     function update() {
