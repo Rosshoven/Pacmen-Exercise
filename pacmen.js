@@ -9,8 +9,8 @@
     function setToRandom(scale) {
         return {
             x: Math.random() * scale,
-            y: Math.random() * scale
-        }
+            y: Math.random() * scale,
+        };
     }
     // Factory to make a PacMan at a random position with random velocity
     function makePac() {
@@ -45,7 +45,7 @@
 
             item.newimg.style.left = item.position.x;
             item.newimg.style.top = item.position.y;
-        })
+        });
         setTimeout(update, 20);
     }
 
@@ -60,3 +60,5 @@
     function makeOne() {
         pacMen.push(makePac()); // add a new PacMan
     }
+
+    
