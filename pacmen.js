@@ -61,4 +61,12 @@
         pacMen.push(makePac()); // add a new PacMan
     }
 
+    function deleteOne() {
+        const lastPac = pacMen.pop();
+        const g = document.getElementById('game');
+        const del = g.removeChild(lastPac.newimg);
+    }
     
+    function reStart() {
+        window.location.reload();
+    }
