@@ -1,5 +1,5 @@
 # PacMen
-## Factory for making Pacmen. This page produces a Pacman on the click of the button "Add Pacman." The button "Start Game" will make the pacman move around the x & y axis.  
+## Factory for making Pacmen. This page produces a Pacman on the click of the button "Add Pacman." The button "Start Game" should make the pacman move around the x & y axis. "Delete Pacman" gets rid of Pacman, "End Game" restarts the page.
 <img src="./Images/PacMan1.png" width='300'/>
 
 # Usage 
