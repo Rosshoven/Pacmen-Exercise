@@ -22,10 +22,10 @@
         let newimg = document.createElement('img');
         newimg.style.position = 'absolute';
         newimg.src = './Images/PacMan1.png';
-        newimg.width = 100;
+        newimg.width = 80;
         // set position here 
-        newimg.style.left = position.x;
-        newimg.style.top = position.y;
+        newimg.style.left = position.x + "px";
+        newimg.style.top = position.y + "px";
         // add new Child image to game
         game.appendChild(newimg);
         // return details in an object
@@ -43,8 +43,8 @@
             item.position.x += item.velocity.x;
             item.position.y += item.velocity.y;
 
-            item.newimg.style.left = item.position.x;
-            item.newimg.style.top = item.position.y;
+            item.newimg.style.left = item.position.x + "px";
+            item.newimg.style.top = item.position.y + "px";
         });
         setTimeout(update, 20);
     }
@@ -61,12 +61,14 @@
         pacMen.push(makePac()); // add a new PacMan
     }
 
+    // This function written by cohort student Linh Nguyen
     function deleteOne() {
         const lastPac = pacMen.pop();
         const g = document.getElementById('game');
         const del = g.removeChild(lastPac.newimg);
     }
     
+       // This function written by cohort student Linh Nguyen
     function reStart() {
         window.location.reload();
     }
