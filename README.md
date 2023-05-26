@@ -1,14 +1,13 @@
 # PacMen
-## Factory for making Pacmen. This page produces a Pacman on the click of the button "Add Pacman." The button "Start Game" should make the pacman move around the x & y axis. "Delete Pacman" gets rid of Pacman, "End Game" restarts the page.
+## Factory for making Pacmen. This page produces a Pacman on the click of the button "Add Pacman." The button "Start Moving" makes the pacman move around the x & y axis. "Delete Pacman" gets rid of the most recent Pacman, and "End Game" clears the page of all Pacmen.
 <img src="./Images/PacMan1.png" width='300'/>
 
 # Usage 
 ## Open html.index file
-### When button "make one" is pressed you add a new pacman image to the page.
+### When button "Add Pacman" is pressed you add a new pacman to the page.
 
 # Future Improvments
 <ol> 
-<li> Make each Pacman move and bounce off any wall it hits. </li>
 <li> Change Pacman mouth and facial direction based on its movement.</li>
 </ol>
 
